@@ -1,0 +1,10 @@
+<?php
+$sql="select * From appointment";
+$result=mysql_query($databaseName, $sql) or die ("Bad Query:$sql");
+echo"<table border='1'>";
+echo"<tr><td>pname</td><tr>"
+while($row = mysqli_fetch_assoc($result)){
+
+}
+echo"</table>";
+?>
